@@ -12,12 +12,13 @@ class R < Formula
   url 'http://cran.rstudio.com/src/base/R-3/R-3.1.2.tar.gz'
   mirror 'http://cran.r-project.org/src/base/R-3/R-3.1.2.tar.gz'
   sha1 '93809368e5735a630611633ac1fa99010020c5d6'
+  revision 1
 
   bottle do
     root_url "https://downloads.sf.net/project/machomebrew/Bottles/science"
-    sha1 "dd0561d83e304470274792dc8886d5ecd75c8f0a" => :yosemite
-    sha1 "1a9a113e18d28bc0c3b0225a6df431e62489424a" => :mavericks
-    sha1 "07ddfd37c259fdd769622d95d09f302ea0dc9ee5" => :mountain_lion
+    sha1 "738f9cf484cf9577eeed07f7ba63c22e73b317fe" => :yosemite
+    sha1 "4578f271c00abefb5f5c09836593915d32d5e191" => :mavericks
+    sha1 "a6238fad91bf3101ad9b088a348879c8de8a439e" => :mountain_lion
   end
 
   head do
