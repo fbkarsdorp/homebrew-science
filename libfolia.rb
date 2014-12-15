@@ -3,7 +3,7 @@ require "formula"
 class Libfolia < Formula
   homepage "http://proycon.github.io/folia/"
   url "http://software.ticc.uvt.nl/libfolia-latest.tar.gz"
-  sha1 "a3634027a5a538287636601df1e4519593516dac"
+  sha1 "ad44e22669a9cf3dc30905c16c5d89cbd28c0f09"
 
   depends_on "pkg-config" => :build
   depends_on "icu4c"
