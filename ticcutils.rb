@@ -12,6 +12,7 @@ class Ticcutils < Formula
   option "without-check", "skip build-time checks (not recommended)"
 
   def install
+    ENV['LD'] = ENV.cc
     system "./configure", "--disable-dependency-tracking",
                           "--disable-silent-rules",
                           "--prefix=#{prefix}"
